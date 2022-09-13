@@ -1,11 +1,14 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+
 }
 
 android {
     compileSdk 32
-
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId "com.halil.loginscreenapp"
         minSdk 21
