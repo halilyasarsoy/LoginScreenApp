@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_color_background"
-    tools:context=".MainActivity">
+    tools:context=".SignupActivity">
 
     <LinearLayout
 
@@ -14,12 +15,11 @@
         android:paddingBottom="14dp">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="120dp"
-            android:layout_marginLeft="40sp"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
             android:layout_marginTop="34sp"
-            android:src="@drawable/user_login_img"
-            android:textAlignment="center" />
+            android:src="@drawable/ic_baseline_person_add_alt_1_24" />
 
         <TextView
             style="@style/Widget.MaterialComponents.TextView"
@@ -27,7 +27,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:paddingTop="10sp"
-            android:text="@string/text_main_page"
+            android:text="@string/sign_upp"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="35sp"
@@ -35,7 +35,7 @@
 
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/SignupUsername"
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
@@ -64,42 +64,30 @@
             android:paddingStart="12dp"
             android:paddingEnd="12dp" />
 
-
         <Button
-            android:id="@+id/button_login"
+            android:id="@+id/button_signup"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="25dp"
             android:backgroundTint="@color/button"
-            android:text="@string/log_in" />
-        <LinearLayout
-            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_marginBottom="45dp"
+            android:text="@string/sign_up" />
+
+        <Button
+            android:id="@+id/back_to_login"
+            android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/account_text"
-                android:textColor="@color/black"
-                android:textSize="15sp"/>
-            <Button
-                android:id="@+id/sign_up"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                style="?android:attr/borderlessButtonStyle"
-                android:text="@string/sign_up"
-                android:textAllCaps="false"
-                android:textColor="@color/buttontext"
-                android:textSize="20sp"/>
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/button"
+            android:text="@string/log_back" />
 
 
-        </LinearLayout>
+
 
     </LinearLayout>
 
-
-</LinearLayout>
+    </LinearLayout>

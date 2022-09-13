@@ -7,4 +7,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="button">#0F1427</color>
+    <color name="buttontext">#7165D5</color>
+
+    <color name="colorTransparent">#00ffffff</color>
+
+    <color name="colorGradientStart">#1D202C</color>
+    <color name="colorGradientCenter">#6D6F81</color>
+    <color name="colorGradientEnd">#E3CF93</color>
+
 </resources>

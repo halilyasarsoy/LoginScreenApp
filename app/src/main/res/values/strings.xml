@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Login Screen App</string>
+    <string name="text_main_page">Login</string>
+    <string name="username_text">Enter Your Username</string>
+    <string name="username_password">Enter Your Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="account_text">Don\'t have an Account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome">Welcome!</string>
+    <string name="log_out">Log Out</string>
+    <string name="textview">TextView</string>
+    <string name="sign_upp">Sign Up</string>
+    <string name="log_back">Back To Login</string>
+
 </resources>
